@@ -1,0 +1,103 @@
+
+
+.column1 { /*for defining the dimensions and adjusting of the 1st column layouts in the page. */
+  float: left;
+  width:33%; /*width of the column*/
+  margin-top: 50px;
+  height: 500px;  /*height of the column.*/
+  margin-left: 220px; 
+  box-shadow: 10px 10px 5px #c3a8aa;  /*to give shadow to the column.*/
+  border-radius: 10px 0px 0px 10px;  /*to give bent to the edges.*/
+  background-color:white; 
+}
+.column2 {  /*for defining the dimensions and adjusting of the 2nd column layouts in the page. */
+  float: left;
+  width:33%;
+  margin-top: 50px;
+  height: 500px; 
+  margin-left: -5px; 
+  box-shadow: 10px 10px 5px #c3a8aa;
+  border-radius: 0px 10px 10px 0px;
+  background-color:#FF416C;
+}
+.row:after { 
+  content: "";
+  display: table;
+  clear: both;
+}
+.social-item{  /*for defining the dimensions and styles of the social-icons.*/
+  margin: 5px ;
+  padding: 8px;
+  font-size: 30px;
+  display: inline-block;
+  width: 44px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;  
+  border: 1px solid #DDDDDD;
+  color: black;
+
+}
+
+
+input[type=email], input[type=password] { /* to define the dimensions and styles about the input text field*/
+  width: 80%;
+  padding: 15px;
+  margin: 5px 40px 15px 40px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+button {  /*to define the dimensions of the button(login and register.)*/
+  background-color: #ff4929;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 25px;
+  margin-top: inherit;
+}
+
+.body1m /*for giving background color to the register and login page*/
+{
+	background-color:#f5e8e9
+}
+
+
+.para2m { /*to style the para tag in login and register page.*/
+  color: black;
+  text-align: center;
+}
+
+.head2m{ /*to style the head tag in login and register page.*/
+  margin-top: inherit;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: 'Balsamiq Sans';/*style using google font*/
+  text-align: center;
+}
+.headtag1{  /* used for styling the headtag in home page*/
+  color: #FF416C;    
+  text-align:center; 
+  margin-top: 200px; /*To move the content in head tag down to a desirable position*/
+  font-size: 40px;
+  font-family: 'Alfa Slab One';
+
+  }
+    
+.para1{ /*used for styling the paratag in home page*/
+  color: black;
+  text-align: center;
+  font-size: 44px; 
+  margin-top: -25px; /*To move the content in para tag up to a desirable position*/
+  font-family: atlata;
+  }
+.logtag{ /*To style the logout anchor tag home page*/
+  text-align: center;
+  margin-top: -65px; /*To move the content up to a desirable position*/
+  font-size: 20px;
+  font-family: 'Alfa Slab One';
+      
+  }
