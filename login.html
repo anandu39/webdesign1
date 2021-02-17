@@ -1,35 +1,32 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="logstyles.css">   <!-- used for linking the styles from .css file -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Used for social icons. -->
-  <link href='https://fonts.googleapis.com/css?family=Balsamiq Sans' rel='stylesheet'><!--Used for google fonts -->
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- To control the the page's dimension and scaling. -->
+  <link rel="stylesheet" type="text/css" href="logstyles.css">  <!-- used for linking the styles from .css file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Balsamiq Sans' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="body1m">
 
-<div class="row">   
-  <div class="column1" >  <!-- To define what all contents are in the column1. -->
-    <h1 class="head2m"><b>Login</b></h2> 
-      <div style="text-align: center;">  <!-- To define the section for social icons.  -->
+<div class=container>
+  <div class="part1" >  <!-- To define what all contents are in the column1. -->
+    <h1 class="head2m"><b>Login</b></h2>
+      <div style="text-align: center;"> <!-- To define the section for social icons.  -->
         <a href="#" class="social-item" ><i class="fa fa-facebook"></i></a>
         <a href="#" class="social-item"><i class="fa fa-twitter" ></i></a><br>
-      </div>  
-      <p class="para2m"  style="margin-bottom:-20px; ">or use your account</p><br>
-    <input type="email" placeholder="Email" name="email"><br>   <!-- input text fields -->
-    <input type="password" placeholder="Password" name="pswrd"> <!-- input text fields -->
-    <p class="para2m">New User?<a href="register.html" style="color:black;">Register</a><br>
-      <button type="submit" onclick="myfunc()">Log in</button>
-      <script>
-        function myfunc(){  /*Javascript. On clicking login load to home page*/
-          location.replace("home.html")
-        }
-      </script>
+      </div>
+    <p class="para2m" style="margin-bottom:-20px; ">or use your account</p><br>
+    <input type="email" placeholder="Email" name="email"><br>
+    <input type="password" placeholder="Password" name="pswrd">
+    <p class="para2m">New User?<a class="para2m" onclick="myfunc()">Register</a><br>
+    <button type="submit">Register</button>
+    <script>
+      function myfunc(){ /*Javascript. On clicking login load to Login page*/
+        location.replace("Register.html")
+      }
+    </script>
+  </div> <!-- To define what all contents are in the column1. -->
+  <div class="part2">
 
   </div>
-  <div class="column2"> <!-- To define what all contents are in the column1. -->
-    
-  </div>
 </div>
-</body>
-</html>
