@@ -12,6 +12,7 @@
     margin-left: 290px;
 
 }
+
   .part1 {
       background-color: white;
     border-radius: 10px 0px 0px;
@@ -19,7 +20,7 @@
     position: relative;
     overflow: hidden;
     width: 410px;
-    max-width: 100%;
+    max-width: 50%;
     min-height: 530px;
 }
   .part2 {
@@ -32,6 +33,16 @@
   transition: transform 0.6s ease-in-out;
   z-index: 100;
   background-color: #FF416C;
+}
+.form1 {
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    display: flex;
 }
 
 .social-item{  /*for defining the dimensions and styles of the social-icons.*/
@@ -50,7 +61,7 @@
 
 
 input[type=email], input[type=password] { /* to define the dimensions and styles about the input text field*/
-    width: 80%;
+    width: 100%;
     padding: 15px;
     margin: 2px 40px 10px 29px;
     display: inline-block;
@@ -65,7 +76,7 @@ button {  /*to define the dimensions of the button(login and register.)*/
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 30%;
+  width: 88%;
   border-radius: 25px;
   margin-top: inherit;
 }
