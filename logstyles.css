@@ -90,6 +90,7 @@ button {  /*to define the dimensions of the button(login and register.)*/
 .para2m { /*to style the para tag in login and register page.*/
   color: black;
   text-align: center;
+  cursor: pointer;
 }
 
 .head2m{ /*to style the head tag in login and register page.*/
